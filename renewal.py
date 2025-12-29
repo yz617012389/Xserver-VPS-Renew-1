@@ -259,7 +259,7 @@ class XServerVPSRenewal:
                 "args": launch_args
             }
 
-            self.browser = await self._pw.chromium.launch(**launch_kwargs)
+            self.browser = await self._pw.chromium.launch(headless=True)
 
             context_options = {
                 "viewport": {"width": 1920, "height": 1080},
