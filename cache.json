@@ -1,6 +1,6 @@
 {
   "last_expiry": "2025-12-31",
-  "status": "Unexpired",
-  "last_check": "2025-12-29T07:47:53.395843+00:00",
+  "status": "Failed",
+  "last_check": "2025-12-30T01:46:18.450805+00:00",
   "vps_id": "40130246"
 }
